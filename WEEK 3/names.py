@@ -12,6 +12,7 @@ def make_full_name(family_name, given_name):
     """
     full_name = f"{family_name}; {given_name}"
     return full_name
+    print()
 
 
 def extract_family_name(full_name):

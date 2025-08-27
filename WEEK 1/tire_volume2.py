@@ -22,6 +22,7 @@ date_today = datetime.datetime.now().strftime('%Y-%m-%d')
 
 # Open the text file named volume.txt for appending
 with open("volumes.txt", "at") as volume_file:
+    print()
 
     # Append the current date, width, aspect ratio, diameter and volume to the text file
     print(f"{date_today}, {int(width)}, {int(aspect_ratio)}, {int(diameter)}, {volume:.2f}", file = volume_file)
